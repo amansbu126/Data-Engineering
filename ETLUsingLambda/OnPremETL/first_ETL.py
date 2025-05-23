@@ -11,12 +11,12 @@ df = pd.read_csv("C:/Users/Aman Kumar/OneDrive/11-05-2025 AWS Sachin/Sample Data
 df.columns = [col.lower().replace(" ", "_") for col in df.columns]
 
 # Database connection info — replace with your actual values
-db_user = "postgres"
-db_password = "SecurePass123!"
-db_host = "my-db-instance.cz628gus6nay.ap-south-1.rds.amazonaws.com"
-db_port = "5432"
-db_name = "postgres"
-db_schema = 'dev_aman'
+db_user = ""
+db_password = ""
+db_host = ""
+db_port = ""
+db_name = ""
+db_schema = ''
 
 # Create connection string
 #engine = create_engine(f"postgresql://{db_user}:{db_password}@{db_host}:{db_port}/{db_name}")
